@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="todo__container">
+                <div class="todo__title">
+                    <h2>Todo List</h2>
+                </div>
+                <div class="todo__day">
+                    <h4 class="todo__day__extension"></h4>
+                    <p class="todo__day__week"></p>
+                </div>
+            </div>
+
+            <div class="todo__list__container">
+                <ul class="todo__list_content"></ul>
+            </div>
+
+            <div class="todo__addItem">
+                <input class="todo__addItem__input" type="text" placeholder="Qual sua nova Task?">
+                <button class="todo__addItem__button">
+                    <img src="enviar.png" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="server.js"></script>
+</body>
+</html>
